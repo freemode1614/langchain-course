@@ -39,7 +39,9 @@ retriever = vector_store.as_retriever(
 )
 
 # llm instance
-llm = ChatOllama(base_url="http://192.168.31.91:11434", model="deepseek-r1:7b")
+llm = ChatOllama(
+    base_url="http://192.168.31.91:11434", 
+    model="deepseek-r1:7b")
 
 # Prompt loader
 loader = TextLoader(
