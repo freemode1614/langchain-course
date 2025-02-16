@@ -1,0 +1,13 @@
+[project]
+name = "demo01"
+version = "0.0.1"
+dependencies = [
+  "arxiv",
+  "pymupdf",
+  "langchain",
+  "langchain-chroma",
+  "langchain-core",
+  "langchain-community",
+  "langchain-ollama",
+]
+requires-python = ">=3.10"
